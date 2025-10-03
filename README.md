@@ -63,3 +63,12 @@ This ensures that students are **physically present in the classroom** when mark
 * **Cloud deployment** for large institutions.
 
 
+<img width="1882" height="795" alt="image" src="https://github.com/user-attachments/assets/209af509-2e4c-4108-8600-30526c156bb4" />
+
+<img width="1698" height="667" alt="image" src="https://github.com/user-attachments/assets/d65e6f35-c57d-4f77-80cc-4a2ad065871b" />
+
+<img width="1834" height="872" alt="image" src="https://github.com/user-attachments/assets/1cb6485f-edfe-4c92-bc1e-7a2d30870cc1" />
+
+
+
+
