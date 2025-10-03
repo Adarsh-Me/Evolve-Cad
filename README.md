@@ -1,73 +1,65 @@
-# Welcome to your Lovable project
+# Evolve-Acad 🎓
 
-## Project info
+### Smart Attendance System with Face Recognition & Geolocation Tagging
 
-**URL**: https://lovable.dev/projects/3b9fc4a6-3ce1-4b91-acc7-dd44ecc8dad1
+Evolve-Acad is a **next-gen attendance management system** that eliminates **proxy attendance issues** by combining **facial recognition** with **real-time geolocation verification**.
 
-## How can I edit this code?
+This ensures that students are **physically present in the classroom** when marking attendance, making the process more **secure, transparent, and efficient**.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/3b9fc4a6-3ce1-4b91-acc7-dd44ecc8dad1) and start prompting.
+* **Face Recognition**
 
-Changes made via Lovable will be committed automatically to this repo.
+  * AI-powered facial recognition ensures the right student marks attendance.
+  * Prevents misuse by photos, videos, or mask-based tricks.
 
-**Use your preferred IDE**
+* **Geolocation Tagging**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+  * Captures student’s live GPS location when attendance is marked.
+  * Ensures they are within the classroom or authorized boundary.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **Proxy Prevention**
 
-Follow these steps:
+  * Combines face ID + location to stop proxy or buddy punching.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* **Real-Time Dashboard**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+  * Teachers can view attendance in real-time.
+  * Easy to export attendance reports.
 
-# Step 3: Install the necessary dependencies.
-npm i
+* **Scalable & Secure**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+  * Works for schools, colleges, and corporates.
+  * Can be integrated with existing ERP or LMS systems.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Tech Stack
 
-**Use GitHub Codespaces**
+* **Frontend**: React.js (or specify if different)
+* **Backend**: Node.js / Express (or Python Flask/Django if used)
+* **Database**: MongoDB / PostgreSQL
+* **Face Recognition**: OpenCV + dlib / DeepFace / Mediapipe
+* **Geolocation**: Google Maps API / GeoPy
+* 
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📌 Usage
 
-## What technologies are used for this project?
+1. Teacher creates an attendance session.
+2. Student scans face → app verifies identity.
+3. System checks geolocation → ensures within classroom radius.
+4. Attendance is marked only if both checks succeed.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🎯 Future Scope
 
-## How can I deploy this project?
+* Integration with **RFID / QR Code** for hybrid systems.
+* **Offline mode** with sync when online.
+* **Analytics dashboard** for performance tracking.
+* **Cloud deployment** for large institutions.
 
-Simply open [Lovable](https://lovable.dev/projects/3b9fc4a6-3ce1-4b91-acc7-dd44ecc8dad1) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
